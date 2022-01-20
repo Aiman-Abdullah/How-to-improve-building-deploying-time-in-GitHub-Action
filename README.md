@@ -12,7 +12,7 @@ Note: the time spending was more than 1 hour.
 ![image](https://user-images.githubusercontent.com/32886468/150438027-60495e65-d7ef-42d3-8f71-cf545110e087.png)
 
 
-The Resolution was easy & Simple. I only needed to Zip/ unzip the Artifacts: ( For more understanding where to add the code below. Please, see workflow/.yaml path
+The Resolution was easy & Simple. I only needed to Zip/ unzip the Artifacts: ( For more understanding where to add the code below. Please, see workflow/.yaml path )
 
 Build: 
 - name: Zip artifact for deployment
@@ -21,8 +21,8 @@ Build:
  path: release.zip
  
  
- Deploy: 
  
+ Deploy: 
    - name: unzip artifact for deployment
         run: unzip release.zip
 
