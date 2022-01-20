@@ -26,7 +26,7 @@ Build:
    - name: unzip artifact for deployment<br>
         run: unzip release.zip<br>
 
-      - name: Delete release.zip<br>
+   - name: Delete release.zip<br>
         run: rm release.zip
 
 
