@@ -15,7 +15,7 @@ Note: the time spending was more than 1 hour.
 The Resolution was easy & Simple. I only needed to Zip/ unzip the Artifacts: ( For more understanding where to add the code below. Please, see workflow/.yaml path )
 
 Build: 
-- name: Zip artifact for deployment
+- name: Zip artifact for deployment<br>
         run: zip release.zip ./* -r
 
  path: release.zip
