@@ -16,7 +16,7 @@ The Resolution was easy & Simple. I only needed to Zip/ unzip the Artifacts: ( F
 
 Build: 
 - name: Zip artifact for deployment<br>
-        run: zip release.zip ./* -r
+        run: zip release.zip ./* -r<br>
 
  path: release.zip
  
@@ -24,7 +24,7 @@ Build:
  
  Deploy: 
    - name: unzip artifact for deployment<br>
-        run: unzip release.zip
+        run: unzip release.zip<br>
 
       - name: Delete release.zip<br>
         run: rm release.zip
