@@ -1,7 +1,8 @@
 # Strapi application
 
-Recently, I have worked with more than one case where customers were having concern if there is any way to decrease Build/deploy time on GitHub Action.
-The time was quite large for building / deploying to Azure App service. And, Total files were large enough.
+Recently, I have worked with more than one case where customers were wondering if there is any way to decrease Build/deploy time on GitHub Action.
+The time was quite large for building / deploying to Azure App service. And, Total files were large enough (Please see the snapshoot below) 
+Note: the time spending was more than 1 hour.
 
 
 ![image](https://user-images.githubusercontent.com/32886468/150437881-121043d5-6c4e-42c4-9135-69c7bafae536.png)
@@ -29,6 +30,10 @@ Build:
         run: rm release.zip
 
 
+
+
+![image](https://user-images.githubusercontent.com/32886468/150438361-65d62fb1-1de4-4a69-b4ec-3797a820a8cc.png)
+![image](https://user-images.githubusercontent.com/32886468/150438372-b43dccee-d73f-4538-81e4-2e9eb6d890a5.png)
 
 
 
