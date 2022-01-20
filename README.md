@@ -23,10 +23,10 @@ Build:
  
  
  Deploy: 
-   - name: unzip artifact for deployment
+   - name: unzip artifact for deployment<br>
         run: unzip release.zip
 
-      - name: Delete release.zip
+      - name: Delete release.zip<br>
         run: rm release.zip
 
 
