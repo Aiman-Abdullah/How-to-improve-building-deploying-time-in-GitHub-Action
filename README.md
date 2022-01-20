@@ -18,7 +18,7 @@ Build:
 - name: Zip artifact for deployment<br>
         run: zip release.zip ./* -r<br>
 
- path: release.zip
+  path: release.zip
  
  
  
