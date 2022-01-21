@@ -1,9 +1,7 @@
 # Strapi application
 
-How to improve the building & deploying time in GitHub Action.
-The time was quite large for building / deploying to Azure App service. And, Total files were large enough (Please see the snapshoot below) 
-Note: the time spending was more than 1 hour.
-
+How to improve the building & deploying time in GitHub Action?
+If time quite large for building / deploying to Azure App service. And, Total files were large enough (Please see the snapshoot below). the best way is to Zip & Unzip Artifacts files. 
 
 ![image](https://user-images.githubusercontent.com/32886468/150437881-121043d5-6c4e-42c4-9135-69c7bafae536.png)
 
@@ -12,7 +10,7 @@ Note: the time spending was more than 1 hour.
 ![image](https://user-images.githubusercontent.com/32886468/150438027-60495e65-d7ef-42d3-8f71-cf545110e087.png)
 
 
-The Resolution was easy & Simple. I only needed to Zip/ unzip the Artifacts: ( For more understanding where to add the code below. Please, see workflow/.yaml path )
+The Resolution is easy & Simple. I only needed to Zip/ unzip the Artifacts: ( For more understanding where to add the code below. Please, see workflow/.yaml path )
 
 Build: 
 - name: Zip artifact for deployment<br>
